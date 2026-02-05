@@ -76,7 +76,7 @@ export default function Contact() {
     } catch (error) {
       console.error('EmailJS error:', error)
       setSubmitStatus('error')
-      setStatusMessage('Failed to send message. Please try again or you can gemail me directly.')
+      setStatusMessage('Failed to send message. Please try again or you can email me directly.')
       
       setTimeout(() => {
         setSubmitStatus('idle')
