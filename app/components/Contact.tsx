@@ -87,7 +87,7 @@ export default function Contact() {
   }
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('praveenverma.9b33@gmail.com')
+    navigator.clipboard.writeText('praveen.work.dev@gmail.com')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
